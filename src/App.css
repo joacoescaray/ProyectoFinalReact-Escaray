@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+}
+.Logo{
+  width: 50px;
+}
+.btnCategorias {
+  align-items: center;
+  margin-left: 0px;
+  font-size: 25px;
+  font-weight: bold;
+  }
+
+
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10px;
+  
+}
+
+.itemContainer {
+  width: 30%; 
+  margin: 10px; 
+  display: inline-block;
+  text-align: center;
+  
+}
+
+.cardContainer {
+  text-align: center; 
+  border-radius: 10px !important;
+  overflow: hidden;
+}
+.cardContainer:hover{
+  box-shadow: 0 10px 20px rgba(104, 3, 107, 0.616) !important;
+}
+
+
+
+.cardImage{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all 0.5s;
+}
+
+.cardImage:hover{
+transform: scale(1.1);
+}
+
+
+
+.tablaCarrito {
+  border-radius: 10px; 
+  overflow: hidden;
+  margin-top: 60px; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  background-color: #fff; 
+  box-shadow: 0 0 10px rgba(56, 3, 47, 0.5); 
+}
+
+
+.table {
+  width: 100%;
+}
+
+
+
+
+.total {
+  font-size: 30px !important; 
+  font-weight: bold; 
+  color:black; 
+  text-align: center;
+  margin-top: 20px !important; 
+  margin-bottom: 20px !important;
+  padding-top: 10px; 
+  border-top: 1px solid #ddd; 
+  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5); 
+}
+
+
+.button {
+  margin-top: 10px; 
+  font-size: 16px; 
+  font-weight: bold; 
+  background-color: #ff0000; 
+  color: #fff; 
+  border: none; 
+  padding: 10px 20px; 
+  border-radius: 5px;
+}
+
+.vaciarCarritoContainer {
+  margin-bottom: 20px; 
+}
+
+.alertToast{
+  color: white;
+}
+
+.css-k008qs {
+  background-color: rgb(57, 9, 102);
+}
+.css-l8chpt {
+  background-color: rgb(57, 9, 102);
+}
+.css-h94677 {
+  background-color: rgb(57, 9, 102);
+}
