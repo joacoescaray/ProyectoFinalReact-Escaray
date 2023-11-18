@@ -159,7 +159,7 @@ const Cart = () => {
           >
             <ModalOverlay />
             <ModalContent>
-              <ModalHeader>¡Formulario de Envio!</ModalHeader>
+              <ModalHeader>¡Formulario de Envio para su compra!</ModalHeader>
               <ModalCloseButton />
               <ModalBody>
                 <form onSubmit={handleSubmit}>

@@ -15,8 +15,10 @@
   font-weight: bold;
   }
 
-
-
+  .css-1atmffo {
+    text-align: center;
+  }
+  
 .cardContainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
